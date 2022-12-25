@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widgets/bottomsheet.dart';
 import 'package:flutter_widgets/container_sizedbox.dart';
 import 'package:flutter_widgets/drawer.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
-      home: const ContainerSized(),
+      home: const BottomSheetWidget(),
     );
   }
 }
