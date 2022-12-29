@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_widgets/alert.dart';
 import 'package:flutter_widgets/bottomsheet.dart';
 import 'package:flutter_widgets/container_sizedbox.dart';
+import 'package:flutter_widgets/dismissible.dart';
 import 'package:flutter_widgets/drawer.dart';
 import 'package:flutter_widgets/dropdown.dart';
 import 'package:flutter_widgets/snackbar.dart';
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
-      home: const DropDownWidget(),
+      home: const DismissibleWidget(),
     );
   }
 }
