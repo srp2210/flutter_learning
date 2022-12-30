@@ -6,6 +6,7 @@ import 'package:flutter_widgets/dismissible.dart';
 import 'package:flutter_widgets/drawer.dart';
 import 'package:flutter_widgets/dropdown.dart';
 import 'package:flutter_widgets/snackbar.dart';
+import 'package:flutter_widgets/tab.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
-      home: const DismissibleWidget(),
+      home: const TabBarWidget(),
     );
   }
 }
