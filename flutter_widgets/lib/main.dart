@@ -5,6 +5,7 @@ import 'package:flutter_widgets/container_sizedbox.dart';
 import 'package:flutter_widgets/dismissible.dart';
 import 'package:flutter_widgets/drawer.dart';
 import 'package:flutter_widgets/dropdown.dart';
+import 'package:flutter_widgets/forms.dart';
 import 'package:flutter_widgets/grid_list.dart';
 import 'package:flutter_widgets/snackbar.dart';
 import 'package:flutter_widgets/stack.dart';
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
-      home: const StackWidget(),
+      home: const FormWidget(),
     );
   }
 }
