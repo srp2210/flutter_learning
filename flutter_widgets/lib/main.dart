@@ -7,6 +7,7 @@ import 'package:flutter_widgets/drawer.dart';
 import 'package:flutter_widgets/dropdown.dart';
 import 'package:flutter_widgets/forms.dart';
 import 'package:flutter_widgets/grid_list.dart';
+import 'package:flutter_widgets/aboutlist_tile.dart';
 import 'package:flutter_widgets/snackbar.dart';
 import 'package:flutter_widgets/stack.dart';
 import 'package:flutter_widgets/tab.dart';
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
-      home: const FormWidget(),
+      home: const AboutListWidget(),
     );
   }
 }
