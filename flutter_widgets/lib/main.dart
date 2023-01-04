@@ -12,6 +12,8 @@ import 'package:flutter_widgets/snackbar.dart';
 import 'package:flutter_widgets/stack.dart';
 import 'package:flutter_widgets/tab.dart';
 
+import 'about_dialog.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -28,7 +30,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
-      home: const AboutListWidget(),
+      home: const AboutWidget(),
     );
   }
 }
