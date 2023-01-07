@@ -14,6 +14,7 @@ import 'package:flutter_widgets/tab.dart';
 
 import 'about_dialog.dart';
 import 'absorb_pointer.dart';
+import 'align.dart';
 
 void main() {
   runApp(const MyApp());
@@ -31,7 +32,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
-      home: const AbsorbPoint(),
+      home: const AlignWidget(),
     );
   }
 }
