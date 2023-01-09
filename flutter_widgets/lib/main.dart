@@ -16,6 +16,7 @@ import 'about_dialog.dart';
 import 'absorb_pointer.dart';
 import 'align.dart';
 import 'backdrop_filter.dart';
+import 'banner.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
-      home: const BackdropFilterWidget(),
+      home: const Widget025(),
     );
   }
 }
