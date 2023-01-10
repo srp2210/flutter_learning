@@ -17,6 +17,7 @@ import 'absorb_pointer.dart';
 import 'align.dart';
 import 'backdrop_filter.dart';
 import 'banner.dart';
+import 'baseline.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +35,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
-      home: const Widget025(),
+      home: const BaseLineWidget(),
     );
   }
 }

@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 
-class Widget025 extends StatelessWidget {
-  const Widget025({Key? key}) : super(key: key);
+class BaneerWidget extends StatelessWidget {
+  const BaneerWidget({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
