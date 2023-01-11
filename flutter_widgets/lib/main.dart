@@ -18,6 +18,7 @@ import 'align.dart';
 import 'backdrop_filter.dart';
 import 'banner.dart';
 import 'baseline.dart';
+import 'block_semantics.dart';
 
 void main() {
   runApp(const MyApp());
@@ -35,7 +36,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
-      home: const BaseLineWidget(),
+      home: const BlockSemanticsWidget(),
     );
   }
 }
