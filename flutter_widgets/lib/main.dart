@@ -19,6 +19,9 @@ import 'backdrop_filter.dart';
 import 'banner.dart';
 import 'baseline.dart';
 import 'block_semantics.dart';
+import 'circle_avatar.dart';
+
+
 
 void main() {
   runApp(const MyApp());
@@ -36,7 +39,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
-      home: const BlockSemanticsWidget(),
+      home: const CircleAvatarWidget(),
     );
   }
 }
