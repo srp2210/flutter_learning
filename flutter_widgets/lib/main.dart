@@ -20,6 +20,7 @@ import 'banner.dart';
 import 'baseline.dart';
 import 'block_semantics.dart';
 import 'circle_avatar.dart';
+import 'circular_progress_indicator.dart';
 
 
 
@@ -39,7 +40,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
-      home: const CircleAvatarWidget(),
+      home: const CircularProgressWidget(),
     );
   }
 }
