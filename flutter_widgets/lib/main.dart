@@ -22,6 +22,7 @@ import 'block_semantics.dart';
 import 'circle_avatar.dart';
 import 'circular_progress_indicator.dart';
 import 'clip_oval.dart';
+import 'clip_path.dart';
 
 
 
@@ -41,7 +42,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
-      home: const ClipOvalWidget(),
+      home: const ClipPathWidget(),
     );
   }
 }
