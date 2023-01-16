@@ -23,6 +23,7 @@ import 'circle_avatar.dart';
 import 'circular_progress_indicator.dart';
 import 'clip_oval.dart';
 import 'clip_path.dart';
+import 'clip_r_rect.dart';
 
 
 
@@ -42,7 +43,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
-      home: const ClipPathWidget(),
+      home: const ClipRRectWidget(),
     );
   }
 }
