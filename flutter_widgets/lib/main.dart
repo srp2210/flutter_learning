@@ -24,6 +24,7 @@ import 'circular_progress_indicator.dart';
 import 'clip_oval.dart';
 import 'clip_path.dart';
 import 'clip_r_rect.dart';
+import 'clip_rect.dart';
 
 
 
@@ -43,7 +44,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
-      home: const ClipRRectWidget(),
+      home: const ClipRectWidget(),
     );
   }
 }
