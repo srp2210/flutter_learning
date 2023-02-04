@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'expansion_panel_list.dart';
+import 'flexible.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
-      home: const ExpanPanelWidget(),
+      home: const FlexibleWidget(),
     );
   }
 }
