@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'expansion_panel_list.dart';
 import 'flexible.dart';
 import 'gesture_detector.dart';
+import 'grid_paper.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
       ),
-      home: const GestureDectectorWidget(),
+      home: const GridPaperWidget(),
     );
   }
 }
